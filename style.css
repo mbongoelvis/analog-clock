@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: ubuntu;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(147, 147, 147);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.main{
+    width: 60vw;
+    height: 60vh;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    border-radius: 10px;
+}
+.outerclock{
+    width: 35%;
+    height: 70%;
+    border-radius: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.innerclock{
+    width: 98%;
+    height: 98%;
+    border-radius: 100%;
+    background-color: white;
+    position: relative;
+}
+.long-hand{
+    width: 1%;
+    height: 49%;
+    background-color: red;
+    position: absolute;
+    top:1rem;
+    left: 11.5rem;
+    border-radius: 5px 5px 0 0;
+    z-index: 1;
+}
+.short-hand{
+    width: 1%;
+    height: 35%;
+    background-color: blue;
+    position: absolute;
+    top: 9rem;
+    left: 16rem;
+    transform: rotate(90deg);
+    border-radius: 5px 5px 0 0;
+}
+.circle{
+    width: 6%;
+    height: 6%;
+    border-radius: 100%;
+    background-color: blue;
+    position: absolute;
+    top: 12.5rem;
+    left: 11rem;
+}
+.circle-dot{
+    width: 3%;
+    height: 3%;
+    border-radius: 100%;
+    background-color: yellow;
+    position: absolute;
+    top: 12.8rem;
+    left: 11rem;
+    z-index: -1;
+}
+.number1, .number2, .number3, .number4, .number5, .number6, .number7, .number8, .number9, .number10, .number11, .number12{
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+}
+.number12, .number6{
+    top: 0;
+    left: 10.8rem;
+}
+.number6{
+    top: 23.6rem;
+    left: 11.4rem;
+}
+.number2, .number10{
+    top: 6.8rem;
+}
+.number10, .number8{
+    left: 1.5rem;
+}
+.number8, .number4{
+    top: 17.4rem;
+}
+.number2, .number4{
+    left: 22rem;
+}
+.number3, .number9{
+    top: 12.8rem;
+}
+.number3{
+    left: 23rem;
+}
+.number1,.number11{
+    top: 2.5rem;
+}
+.number11, .number7{
+    left: 5.4rem;
+}
+.number7, .number5{
+    top: 21.5rem;
+}
+.number5{
+    left: 17.5rem;
+}
+.number1{
+    left: 17.5rem;
+}
